@@ -6,12 +6,12 @@
 }
 
 .landing {
-  height: 100vh;
-  min-width:max-content;
+  width: 75vh;
+  align-items: center;
+  justify-content: center;
 }
 
 footer.footer {
-  background-color: #05a8aa;
   left: 0;
   right: 0;
   bottom: 0;
@@ -30,7 +30,7 @@ footer.footer {
 }
 
 .footer > a:hover {
-  color: #b8d5b8;
+  color: orangered;
   text-decoration: none;
 }
 
@@ -46,11 +46,11 @@ footer.footer {
     align-items: center;
     border-radius: none;
   }
-  
+/*   
   .landing {
     height: 95vh;
     min-width:max-content;
-  }
+  } */
 }
 
 @media only screen and (max-width: 667px) {
@@ -65,10 +65,5 @@ footer.footer {
     align-items: center;
     align-content: center;
     border-radius: none;
-  }
-  
-  .landing {
-    height: 75vh;
-    min-width:max-content;
   }
 }

@@ -1,7 +1,7 @@
 :root {
-  --primary: #05a8aa;
+  --primary: #d0edee;
   --secondary: #7dc5ee;
-  --tertiary: #E5CA79;
+  --tertiary: #e5ca79;
   --light: #fafafa;
   --dark: #272f32;
   --error: rgb(228, 46, 1);
@@ -21,18 +21,11 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
-  /* background-image: url(./assets/top-coffee.png); */
-  /* background: url(./assets/lightgreen.png); */
-  /* background-color: #e5c9c2;  */
-  background-color: #EFDDD9;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-} 
+}
 
 .card {
   width: 20%;
@@ -54,7 +47,7 @@ button {
   margin-top: 15px;
   color: black;
   padding: 0.25rem 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: none;
   outline: none;
   cursor: pointer;
@@ -63,7 +56,6 @@ button {
 
 #tbc {
   margin: 20px;
-  
 }
 
 h1,
@@ -72,7 +64,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -82,10 +74,9 @@ h1 {
   /* margin-right: var(--spacing-one);
   margin-left: var(--spacing-one); */
   justify-items: center;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 50px;
   margin-top: 10px;
-
 }
 
 h2 {
@@ -119,14 +110,13 @@ p {
   margin-bottom: 0;
   color: var(--dark);
   font-weight: 600;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 a {
   color: var(--dark);
   text-decoration: none;
   font-weight: bold;
-
 }
 
 a:hover {
@@ -139,7 +129,7 @@ header {
 }
 
 header a {
-color: var(--dark);
+  color: var(--dark);
 }
 
 button {
@@ -147,22 +137,22 @@ button {
   font-weight: bold;
   color: black;
   padding: 0.25rem 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: none;
   outline: none;
   cursor: pointer;
   margin: 10px 3px;
   background-color: #b8d5b8;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 button:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 button[disabled] {
   cursor: default;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 img {
@@ -172,7 +162,6 @@ img {
 span[role="img"] {
   cursor: default;
   color: var(--tertiary);
-
 }
 
 form {
@@ -190,7 +179,7 @@ input {
 
 input:focus {
   border: 1px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
 .container {
@@ -216,7 +205,7 @@ input:focus {
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 36px;
 }
 
